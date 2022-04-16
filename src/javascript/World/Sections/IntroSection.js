@@ -216,6 +216,7 @@ export default class IntroSection
             mass: 1.5,
             soundName: 'brick'
         })
+        
         this.objects.add({
             base: this.resources.items.introIBase.scene,
             collision: this.resources.items.introICollision.scene,
@@ -254,6 +255,7 @@ export default class IntroSection
             mass: 1.5,
             soundName: 'brick'
         })
+        
         this.objects.add({
             base: this.resources.items.introCreativeBase.scene,
             collision: this.resources.items.introCreativeCollision.scene,

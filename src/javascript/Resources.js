@@ -266,6 +266,13 @@ export default class Resources extends EventEmitter
             { name: 'introSBase', source: introSBaseSource },
             { name: 'introSCollision', source: introSCollisionSource },
 
+            /* // add 150422
+            { name: 'introOBase', source: introOBaseSource },
+            { name: 'introOCollision', source: introOCollisionSource }, 
+
+            { name: 'introNBase', source: introNBaseSource },
+            { name: 'introNCollision', source: introNCollisionSource }, */
+
             { name: 'introIBase', source: introIBaseSource },
             { name: 'introICollision', source: introICollisionSource },
 
