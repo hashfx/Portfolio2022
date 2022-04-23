@@ -157,9 +157,11 @@ export default class IntroSection
         })
     }
 
+    
     setTitles()
+    
     {
-        // Title
+     /*   // Title
         this.objects.add({
             base: this.resources.items.introBBase.scene,
             collision: this.resources.items.introBCollision.scene,
@@ -255,7 +257,7 @@ export default class IntroSection
             mass: 1.5,
             soundName: 'brick'
         })
-        
+        */
         this.objects.add({
             base: this.resources.items.introCreativeBase.scene,
             collision: this.resources.items.introCreativeCollision.scene,

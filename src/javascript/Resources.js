@@ -31,7 +31,7 @@ import introInstructionsOtherSource from '../models/intro/instructions/other.png
 
 import introArrowKeyBaseSource from '../models/intro/arrowKey/base.glb'
 import introArrowKeyCollisionSource from '../models/intro/arrowKey/collision.glb'
-
+/*
 import introBBaseSource from '../models/intro/b/base.glb'
 import introBCollisionSource from '../models/intro/b/collision.glb'
 
@@ -55,7 +55,7 @@ import introICollisionSource from '../models/intro/i/collision.glb'
 
 import introMBaseSource from '../models/intro/m/base.glb'
 import introMCollisionSource from '../models/intro/m/collision.glb'
-
+*/
 import introCreativeBaseSource from '../models/intro/creative/base.glb'
 import introCreativeCollisionSource from '../models/intro/creative/collision.glb'
 
@@ -248,6 +248,7 @@ export default class Resources extends EventEmitter
             { name: 'introArrowKeyBase', source: introArrowKeyBaseSource },
             { name: 'introArrowKeyCollision', source: introArrowKeyCollisionSource },
 
+            /*
             { name: 'introBBase', source: introBBaseSource },
             { name: 'introBCollision', source: introBCollisionSource },
 
@@ -266,18 +267,20 @@ export default class Resources extends EventEmitter
             { name: 'introSBase', source: introSBaseSource },
             { name: 'introSCollision', source: introSCollisionSource },
 
-            /* // add 150422
+            /* // add 150422 
             { name: 'introOBase', source: introOBaseSource },
             { name: 'introOCollision', source: introOCollisionSource }, 
 
             { name: 'introNBase', source: introNBaseSource },
             { name: 'introNCollision', source: introNCollisionSource }, */
 
+            /*
             { name: 'introIBase', source: introIBaseSource },
             { name: 'introICollision', source: introICollisionSource },
 
             { name: 'introMBase', source: introMBaseSource },
             { name: 'introMCollision', source: introMCollisionSource },
+            */
 
             { name: 'introCreativeBase', source: introCreativeBaseSource },
             { name: 'introCreativeCollision', source: introCreativeCollisionSource },
