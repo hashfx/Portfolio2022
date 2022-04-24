@@ -2,39 +2,39 @@ import * as THREE from 'three'
 import Project from './Project'
 import TweenLite from 'gsap/TweenLite'
 
-import projectsThreejsJourneySlideASources from '../../../models/projects/threejsJourney/slideA.jpg'
-import projectsThreejsJourneySlideBSources from '../../../models/projects/threejsJourney/slideB.jpg'
-import projectsThreejsJourneySlideCSources from '../../../models/projects/threejsJourney/slideC.jpg'
-import projectsThreejsJourneySlideDSources from '../../../models/projects/threejsJourney/slideD.jpg'
+import projectsThreejsJourneySlideASources from '../../../models/projects/portfolio/slideA.png'
+import projectsThreejsJourneySlideBSources from '../../../models/projects/portfolio/slideB.png'
+import projectsThreejsJourneySlideCSources from '../../../models/projects/portfolio/slideC.png'
+import projectsThreejsJourneySlideDSources from '../../../models/projects/portfolio/slideD.png'
 
-import projectsChartogneSlideASources from '../../../models/projects/chartogne/slideA.jpg'
-import projectsChartogneSlideBSources from '../../../models/projects/chartogne/slideB.jpg'
-import projectsChartogneSlideCSources from '../../../models/projects/chartogne/slideC.jpg'
+import projectsChartogneSlideASources from '../../../models/projects/dropbox/slideA.png'
+import projectsChartogneSlideBSources from '../../../models/projects/dropbox/slideB.png'
+import projectsChartogneSlideCSources from '../../../models/projects/dropbox/slideC.png'
 
-import projectsZenlySlideASources from '../../../models/projects/zenly/slideA.jpg'
-import projectsZenlySlideBSources from '../../../models/projects/zenly/slideB.jpg'
-import projectsZenlySlideCSources from '../../../models/projects/zenly/slideC.jpg'
+import projectsZenlySlideASources from '../../../models/projects/tallyAutomation/slideA.png'
+import projectsZenlySlideBSources from '../../../models/projects/tallyAutomation/slideB.png'
+import projectsZenlySlideCSources from '../../../models/projects/tallyAutomation/slideC.png'
 
-import projectsCitrixRedbullSlideASources from '../../../models/projects/citrixRedbull/slideA.jpg'
-import projectsCitrixRedbullSlideBSources from '../../../models/projects/citrixRedbull/slideB.jpg'
-import projectsCitrixRedbullSlideCSources from '../../../models/projects/citrixRedbull/slideC.jpg'
+import projectsCitrixRedbullSlideASources from '../../../models/projects/galaxy/slideA.png'
+import projectsCitrixRedbullSlideBSources from '../../../models/projects/galaxy/slideB.png'
+import projectsCitrixRedbullSlideCSources from '../../../models/projects/galaxy/slideC.png'
 
-import projectsPriorHoldingsSlideASources from '../../../models/projects/priorHoldings/slideA.jpg'
-import projectsPriorHoldingsSlideBSources from '../../../models/projects/priorHoldings/slideB.jpg'
-import projectsPriorHoldingsSlideCSources from '../../../models/projects/priorHoldings/slideC.jpg'
+import projectsPriorHoldingsSlideASources from '../../../models/projects/ytDwnl/slideA.png'
+import projectsPriorHoldingsSlideBSources from '../../../models/projects/ytDwnl/slideB.png'
+import projectsPriorHoldingsSlideCSources from '../../../models/projects/ytDwnl/slideC.png'
 
-import projectsOranoSlideASources from '../../../models/projects/orano/slideA.jpg'
-import projectsOranoSlideBSources from '../../../models/projects/orano/slideB.jpg'
-import projectsOranoSlideCSources from '../../../models/projects/orano/slideC.jpg'
+import projectsOranoSlideASources from '../../../models/projects/flaskMarket/slideA.png'
+import projectsOranoSlideBSources from '../../../models/projects/flaskMarket/slideB.png'
+import projectsOranoSlideCSources from '../../../models/projects/flaskMarket/slideC.png'
 
-import projectsGleecChatSlideASources from '../../../models/projects/gleecChat/slideA.jpg'
-import projectsGleecChatSlideBSources from '../../../models/projects/gleecChat/slideB.jpg'
-import projectsGleecChatSlideCSources from '../../../models/projects/gleecChat/slideC.jpg'
-import projectsGleecChatSlideDSources from '../../../models/projects/gleecChat/slideD.jpg'
+import projectsGleecChatSlideASources from '../../../models/projects/megaRobot/slideA.png'
+import projectsGleecChatSlideBSources from '../../../models/projects/megaRobot/slideB.png'
+import projectsGleecChatSlideCSources from '../../../models/projects/megaRobot/slideC.png'
+// import projectsGleecChatSlideDSources from '../../../models/projects/gleecChat/slideD.jpg'
 
-import projectsKepplerSlideASources from '../../../models/projects/keppler/slideA.jpg'
-import projectsKepplerSlideBSources from '../../../models/projects/keppler/slideB.jpg'
-import projectsKepplerSlideCSources from '../../../models/projects/keppler/slideC.jpg'
+import projectsKepplerSlideASources from '../../../models/projects/decentragram/slideA.png'
+import projectsKepplerSlideBSources from '../../../models/projects/decentragram/slideB.png'
+import projectsKepplerSlideCSources from '../../../models/projects/decentragram/slideC.png'
 
 export default class ProjectsSection
 {
@@ -105,7 +105,7 @@ export default class ProjectsSection
     {
         this.list = [
             {
-                name: 'Three.js Journey',
+                name: 'Simplified Portfolio Website',
                 imageSources:
                 [
                     projectsThreejsJourneySlideASources,
@@ -116,7 +116,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://threejs-journey.xyz',
+                    href: '#',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
@@ -131,7 +131,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'Chartogne Taillet',
+                name: 'Dropbox',
                 imageSources:
                 [
                     projectsChartogneSlideASources,
@@ -158,7 +158,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'Zenly',
+                name: 'Tally Automation',
                 imageSources:
                 [
                     projectsZenlySlideASources,
@@ -185,7 +185,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'priorHoldings',
+                name: 'YouTube Video Downloader',
                 imageSources:
                 [
                     projectsPriorHoldingsSlideASources,
@@ -212,7 +212,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'orano',
+                name: 'Flask E-Market',
                 imageSources:
                 [
                     projectsOranoSlideASources,
@@ -239,7 +239,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'citrixRedbull',
+                name: 'Galaxy Game',
                 imageSources:
                 [
                     projectsCitrixRedbullSlideASources,
@@ -272,7 +272,7 @@ export default class ProjectsSection
                     projectsGleecChatSlideASources,
                     projectsGleecChatSlideBSources,
                     projectsGleecChatSlideCSources,
-                    projectsGleecChatSlideDSources
+                    // projectsGleecChatSlideDSources
                 ],
                 floorTexture: this.resources.items.projectsGleecChatFloorTexture,
                 link:
@@ -294,7 +294,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'keppler',
+                name: 'Decentralised Social Media',
                 imageSources:
                 [
                     projectsKepplerSlideASources,

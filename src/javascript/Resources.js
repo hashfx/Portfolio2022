@@ -96,14 +96,14 @@ import projectsDistinctionsFWACollisionSource from '../models/projects/distincti
 import projectsDistinctionsCSSDABaseSource from '../models/projects/distinctions/cssda/base.glb'
 import projectsDistinctionsCSSDACollisionSource from '../models/projects/distinctions/cssda/collision.glb'
 
-import projectsThreejsJourneyFloorSource from '../models/projects/threejsJourney/floorTexture.png'
-import projectsChartogneFloorSource from '../models/projects/chartogne/floorTexture.png'
-import projectsZenlyFloorSource from '../models/projects/zenly/floorTexture.png'
-import projectsCitrixRedbullFloorSource from '../models/projects/citrixRedbull/floorTexture.png'
-import projectsPriorHoldingsFloorSource from '../models/projects/priorHoldings/floorTexture.png'
-import projectsOranoFloorSource from '../models/projects/orano/floorTexture.png'
-import projectsGleecChatFloorSource from '../models/projects/gleecChat/floorTexture.png'
-import projectsKepplerFloorSource from '../models/projects/keppler/floorTexture.png'
+import projectsThreejsJourneyFloorSource from '../models/projects/portfolio/floorTexture.png'
+import projectsChartogneFloorSource from '../models/projects/dropbox/floorTexture.png'
+import projectsZenlyFloorSource from '../models/projects/tallyAutomation/floorTexture.png'
+import projectsCitrixRedbullFloorSource from '../models/projects/galaxy/floorTexture.png'
+import projectsPriorHoldingsFloorSource from '../models/projects/ytDwnl/floorTexture.png'
+import projectsOranoFloorSource from '../models/projects/flaskMarket/floorTexture.png'
+import projectsGleecChatFloorSource from '../models/projects/megaRobot/floorTexture.png'
+import projectsKepplerFloorSource from '../models/projects/decentragram/floorTexture.png'
 
 // Information
 import informationStaticBaseSource from '../models/information/static/base.glb'
