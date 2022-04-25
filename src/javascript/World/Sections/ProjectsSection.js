@@ -116,7 +116,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: '#',
+                    href: 'https://harshsoni-dev.tech',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
@@ -141,7 +141,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsChartogneFloorTexture,
                 link:
                 {
-                    href: 'https://chartogne-taillet.com',
+                    href: 'https://github.com/hashfx/Decentralised-Dropbox',
                     x: - 4.8,
                     y: - 3.3,
                     halfExtents:
@@ -168,7 +168,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsZenlyFloorTexture,
                 link:
                 {
-                    href: 'https://zen.ly',
+                    href: 'https://github.com/hashfx/Tally-Automation',
                     x: - 4.8,
                     y: - 4.2,
                     halfExtents:
@@ -195,7 +195,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
                 link:
                 {
-                    href: 'https://prior.co.jp/discover/',
+                    href: 'https://github.com/hashfx/YouTube-Video-Downloader',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
@@ -222,7 +222,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsOranoFloorTexture,
                 link:
                 {
-                    href: 'https://www.orano.group/experience/innovation/',
+                    href: 'https://github.com/hashfx/FlaskMarket',
                     x: - 4.8,
                     y: - 3.4,
                     halfExtents:
@@ -249,7 +249,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
                 link:
                 {
-                    href: 'https://thenewmobileworkforce.imm-g-prod.com/',
+                    href: 'https://github.com/hashfx/GALAXY-game',
                     x: - 4.8,
                     y: - 4.4,
                     halfExtents:
@@ -266,7 +266,7 @@ export default class ProjectsSection
                 ]
             },
             {
-                name: 'gleecChat',
+                name: 'Mega Robot',
                 imageSources:
                 [
                     projectsGleecChatSlideASources,
@@ -277,7 +277,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsGleecChatFloorTexture,
                 link:
                 {
-                    href: 'http://gleec.imm-g-prod.com',
+                    href: 'https://github.com/hashfx/Mega-Robot',
                     x: - 4.8,
                     y: - 3.4,
                     halfExtents:
@@ -304,7 +304,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsKepplerFloorTexture,
                 link:
                 {
-                    href: 'https://brunosimon.github.io/keppler/',
+                    href: 'https://github.com/hashfx/',
                     x: 2.75,
                     y: - 1.1,
                     halfExtents:
