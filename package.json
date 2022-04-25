@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack-dev-server --config ./bundler/webpack.dev.js",
-    "watch": "webpack --watch --config ./bundler/webpack.config.js"
+    "watch": "webpack --watch --config ./bundler/webpack.config.js",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
