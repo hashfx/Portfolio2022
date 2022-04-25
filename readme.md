@@ -1,23 +1,50 @@
-# Folio 2019
+# Portfolio Website
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+## Developer: [Harsh Soni](https://github.com/hashfx)
 
-``` bash
-# Just be sure that you've got parcel js on you system
-npm install -g parcel-bundler
 
-# Install dependencies (only for first time)
-npm i
+|<em>Tech-Stack</em>|ThreeJS|HTML|JS|GLSL|
+|:--:|:--:|:--:|:--:|:--:|
 
-# Serve at localhost:1234
+---
+
+## Implement Locally
+
+
+### 1. Clone github repo
+
+```bash
+git clone https://github.com/hashfx/Portfolio2022.git
+```
+
+### 2. Install dependencies (just once)
+
+```bash
+npm install
+```
+
+### 3. Serve at localhost
+
+```bash
 npm run dev
+```
 
-# Build for production in the dist/ directory
+### 4. Build for production in the dist/ directory
+
+```bash
 npm run build
 ```
 
-```
-🥚 2021eggpvlzscw
-```
+---
+
+## License
+
+### [AGPL-3.0 License](https://github.com/hashfx/Portfolio2022/blob/master/LICENSE.md)
+
+## Contributions
+### To Contribute in any means, open an issue first
+
+---
+
+<h2 align="center">
+Thanks for Visiting the <a href="https://github.com/hashfx">Profile</a> and Repository of <a href="https://github.com/hashfx/Decentralised-Dropbox/">Portfolio 2022</a> 😊
