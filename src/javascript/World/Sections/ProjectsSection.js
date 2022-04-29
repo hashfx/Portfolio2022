@@ -304,7 +304,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsKepplerFloorTexture,
                 link:
                 {
-                    href: 'https://github.com/hashfx/',
+                    href: 'https://github.com/hashfx/Decentragram-hashfx',
                     x: 2.75,
                     y: - 1.1,
                     halfExtents:
