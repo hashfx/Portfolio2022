@@ -35,6 +35,13 @@ npm run dev
 npm run build
 ```
 
+### 5. Deploy to gh-pages
+
+```bash
+npm install gh-pages
+npm run deploy
+````
+
 ---
 
 ## License
