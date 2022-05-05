@@ -59,3 +59,15 @@ RewriteRule [A-Z] - [N]
 RewriteCond %{ENV:HASCAPS} TRUE
 RewriteRule ^/?(.*) /$1 [R=301,L]
 </IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^harshsoni.me$
+RewriteRule (.*) http://www.harshsoni.me/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
