@@ -1,6 +1,9 @@
 # Project build
 dist/
 
+# git error log
+bash.exe.stackdump
+
 # Parcel cache
 .cache
 
