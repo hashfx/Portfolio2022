@@ -146,4 +146,7 @@ tags
 # Ignore all local history of files
 .history
 
+### reference file for build and deployment
+ref.txt
+
 # End of https://www.gitignore.io/api/vim,node,macos,visualstudiocode
