@@ -54,4 +54,4 @@ npm run deploy
 ---
 
 <h2 align="center">
-Thanks for Visiting the <a href="https://github.com/hashfx">Profile</a> and Repository of <a href="https://github.com/hashfx/Decentralised-Dropbox/">Portfolio 2022</a> 😊
+Thanks for Visiting the <a href="https://github.com/hashfx">Profile</a> and Repository of <a href="https://github.com/hashfx/Portfolio2022/">Portfolio 2022</a> 😊
